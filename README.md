@@ -1,4 +1,4 @@
-# 🛣️ Projeto PRF 2025: Pipeline de Preparação de Dados
+# Projeto PRF 2025: Pipeline de Preparação de Dados
 
 Este projeto consiste em um pipeline de engenharia de dados focado em processar, limpar e enriquecer os registros abertos de acidentes da Polícia Rodoviária Federal (PRF) de 2025. 
 
@@ -6,7 +6,7 @@ O script transforma o arquivo bruto da PRF em bases de dados sólidas, isolando 
 
 ---
 
-## 🎯 Objetivo
+## Objetivo
 
 Preparar os dados de acidentes rodoviários para três frentes principais:
 *   **Análise Exploratória (EDA):** Extração inicial de *insights* e estatísticas.
@@ -15,7 +15,7 @@ Preparar os dados de acidentes rodoviários para três frentes principais:
 
 ---
 
-## ⚙️ O que o pipeline faz?
+## O que o pipeline faz?
 
 *   **Limpeza e Tratamento:** Remove duplicidades exatas, trata valores nulos com regras de negócio e padroniza formatos e textos.
 *   **Criação de Variáveis (*Feature Engineering*):** Cria agrupamentos de datas, turnos de horário e, principalmente, a variável-alvo **`acidente_fatal`** (marcando 1 para acidentes com óbito e 0 para acidentes sem óbito).
@@ -23,7 +23,7 @@ Preparar os dados de acidentes rodoviários para três frentes principais:
 
 ---
 
-## 🛠️ Tecnologias e Bibliotecas
+## Tecnologias e Bibliotecas
 
 O projeto foi construído em Python e não exige hardwares especiais, rodando perfeitamente no Google Colab ou localmente.
 
@@ -38,7 +38,7 @@ O projeto foi construído em Python e não exige hardwares especiais, rodando pe
 
 ---
 
-## 📦 O que é gerado ao final? (Entregáveis)
+## O que é gerado ao final? (Entregáveis)
 
 Ao rodar o notebook, ele automaticamente estrutura as pastas e devolve os seguintes ativos na pasta `dados_tratados/`:
 
@@ -48,7 +48,7 @@ Ao rodar o notebook, ele automaticamente estrutura as pastas e devolve os seguin
 
 ---
 
-## 🚀 Como Executar
+## Como Executar
 
 1. Abra o arquivo do notebook no seu ambiente (Google Colab recomendado).
 2. Rode a primeira célula para que o código crie as pastas do projeto automaticamente.
